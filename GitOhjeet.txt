@@ -1,0 +1,7 @@
+ÄLÄ KOSKAAN LUO GIT KANSIOTA GIT KANSION SISÄÄN! 
+
+- git pitää konfiguroida ekalla kerralla 
+	- git config --global user.name "Nimi" ---> voidaan käyttää globaalisti kaikkialla
+	- sama sähköpostille user.email
+- git kansio pitää alustaa (git init) 
+- 
