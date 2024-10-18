@@ -33,3 +33,4 @@ filun sisään:
 /.micropico
 
 AUTENTIKOINTI TIETOJA EI LAITETA GITHUBIIN! --> gitignore
+hahah 
