@@ -4,4 +4,32 @@
 	- git config --global user.name "Nimi" ---> voidaan käyttää globaalisti kaikkialla
 	- sama sähköpostille user.email
 - git kansio pitää alustaa (git init) 
-- 
+
+
+Nimeä Master branch --> Main
+ 	git branch -m master main
+
+Working dir -> git add (esim tiedosto) -> git commit ->
+Commit --> asetetaan joku tiedosto seurantaan ---> tekee arkistosta (repo) sen hetkisen "snapshotin" 
+Kirjaa viesti 
+	git commit -m "my message (esim version vaihe)"
+Commit messaget kannattaa tehdä alusta lähtien selkeästi 
+
+kirjoitetaan, mikä on paikka missä näitä fileja onlinessa säilytetään? 
+git remote add origin URL
+
+$ git remote -v (tarkistetaan osoite) 
+origin  https://github.com/JasmiinaT/Example (fetch) ---> voidaan hakea tietoja
+origin  https://github.com/JasmiinaT/Example (push) ---> voidaan laittaa tietoja githubiin
+
+git push origin main
+
+
+VSCODE 
+
+.gitignore ---> jotta kaikki krääsä ei mene githubiin (MUISTA SAVETTAA)
+filun sisään:
+/.vscode/
+/.micropico
+
+AUTENTIKOINTI TIETOJA EI LAITETA GITHUBIIN! --> gitignore
